@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: ing-tech
+
+#expose endpoints at /api-hub
+springdoc:
+  api-docs:
+    path: /api-hub
+
+server:
+  error:
+    whitelabel:
+      enabled: false
+
+logging:
+  level:
+    org:
+      springframework:
+        security: trace

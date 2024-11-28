@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title th:text="| Error - ${err.value}|"></title>
+</head>
+<body>
+<h1 th:text="| Error - ${err.value}|"></h1>
+<p th:text="${err.reasonPhrase}"></p>
+<p th:text="| Error of type - ${err.series}|"></p>
+<a href="/home">Go to Homepage</a>
+</body>
+</html>

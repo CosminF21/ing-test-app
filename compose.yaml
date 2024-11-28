@@ -1,0 +1,7 @@
+version: '3'
+services:
+  ing-tech:
+    build: ./
+    container_name: ing-tech
+    ports:
+      - 8080:8080
