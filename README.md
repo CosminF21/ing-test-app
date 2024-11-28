@@ -1,6 +1,6 @@
 ## Welcome to Hub Products Management app
 
-- You can run this app on docker using `docker compose up --build` exposing the ap at http://localhost:8080/
+- You can run this app on docker using `docker compose up --build` exposing the app at http://localhost:8080/
 - Or you can run it locally from your IDE 
 - Run `mvn test -Dtest=HubControllerTest` in order to run unit test
 
